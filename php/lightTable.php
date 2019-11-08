@@ -1,5 +1,12 @@
-<table class="table table-hover">
-  <thead class="gradient-tbl">
+<?php 
+require('includes/config.php');
+include('includes/header.php');
+include('includes/nav.php');
+?>
+
+
+<table class="table table-borderless">
+  <thead>
     <tr>
       <th scope="col">#</th>
       <th scope="col">First</th>
@@ -27,3 +34,7 @@
     </tr>
   </tbody>
 </table>
+
+<?php
+  include('includes/footer.php');
+?>

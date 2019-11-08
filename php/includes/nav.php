@@ -1,9 +1,9 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light gradient">
-  <a class="navbar-brand" href="#">Boostrap Table</a>
+  <a class="navbar-brand" href=".\index.php">Boostrap Table</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse"
      data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
       aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <img src="..\icons\png\tablet.png" alt="">
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -12,18 +12,17 @@
       <li class="nav-item dropdown">
         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Dropdown
+          Table Examples
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Something else here</a>
+          <a class="dropdown-item" href="darkTable.php">Dark</a>
+          <a class="dropdown-item" href="lightTable.php">Light</a>
+          <a class="dropdown-item" href="stripeTable.php">Stripe</a>
         </div>
       </li>
 
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href=".\..\php\navSample.php">Tabs Example</a>
       </li>
 
     </ul>

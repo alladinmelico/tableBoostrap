@@ -1,5 +1,11 @@
-<table class="table table-hover">
-  <thead class="gradient-tbl">
+<?php 
+require('includes/config.php');
+include('includes/header.php');
+include('includes/nav.php');
+?>
+
+<table class="table table-dark">
+  <thead>
     <tr>
       <th scope="col">#</th>
       <th scope="col">First</th>
@@ -22,8 +28,14 @@
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td colspan="2">Larry the Bird</td>
+      <td>Larry</td>
+      <td>the Bird</td>
       <td>@twitter</td>
     </tr>
   </tbody>
 </table>
+
+
+<?php
+  include('includes/footer.php');
+?>
