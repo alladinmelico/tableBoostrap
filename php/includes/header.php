@@ -7,7 +7,14 @@
 
     <link rel="stylesheet" href="..\style\main.css">
     <link rel="stylesheet" href="..\bootstrap\bootstrap-4.3.1-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="..\bootstrap\datatables\dataTables.bootstrap4.css">
+
+
     <script src="..\bootstrap\bootstrap-4.3.1-dist\js\bootstrap.js"></script>
+    <script src="..\bootstrap\bootstrap-4.3.1-dist\js\dropdown.min.js"></script>
+    <script src="..\bootstrap\bootstrap-4.3.1-dist\js\bootstrapDropdown.min.js"></script>
+    <script src="..\bootstrap\datatables\jquery.dataTables.js"></script>
+    <script src="..\bootstrap\datatables\dataTables.bootstrap4.js"></script>
 
 
     <title>Boostrap Table</title>
